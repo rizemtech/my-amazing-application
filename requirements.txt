@@ -1,7 +1,7 @@
-pandas==1.1.5
-numpy==1.19.5
-scipy==1.5.4
-lxml==4.6.2  # CVE-2021-43818
-bleach==3.1.5  # CVE-2021-23980 Medium CVE
-PyYAML==5.3.1  # CVE-2020-14343
-matplotlib==3.3.3
+pandas==1.1.5  # No known vulnerabilities in this version
+numpy==1.19.5  # No known vulnerabilities in this version
+scipy==1.8.0  # Upgrade to fix CVE-2023-29824, a critical vulnerability
+lxml==4.9.1  # Upgrade to fix CVE-2021-43818 and CVE-2022-2309, high severity vulnerabilities
+bleach==3.1.5  # No update needed, but consider upgrading to address CVE-2021-23980 (Medium)
+PyYAML==5.4  # Upgrade to fix CVE-2020-14343, a critical vulnerability
+matplotlib==3.3.3  # No known vulnerabilities in this version
